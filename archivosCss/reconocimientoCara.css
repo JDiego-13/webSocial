@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+#recFac{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#recono{
+    background-color: #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    border: solid;
+}
+#camara{
+    background-color: #ffdab9;
+    width: 80%;
+    height: 380px;
+    align-items: center;
+}
+
+#camara video{
+    width: 100%;
+    height: 100%;
+    transform: scaleX(-1);
+}
+#camara canvas{
+    width: 100%;
+    height: 100%;
+}
+
+#icono{
+    text-align: center;
+    padding: 20px;
+}
+#recono img{
+    width: 100px;
+    height: auto;
+    
+}
+#imagenC{
+    text-align: center;
+    padding: 20px;
+}
+
+
+#textoSaber{
+    margin-left: 5%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+#informacion{
+    background-color: #ffdab9;
+    width: 75%;
+    height: 40%;
+    border-radius: 10px;
+    padding: 10px
+}
+#informacion p{
+    font-size: 35px;
+    text-align: justify;
+    padding: 5px;
+}
+#tomandoDatos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 34.5%;
+}
+#tomandoDatos img{
+    width: 10px;
+    height: auto;
+}
