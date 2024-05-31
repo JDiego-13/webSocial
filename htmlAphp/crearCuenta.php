@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FR (Crear cuenta)</title>
-    <script src="/scripts/crearCuenta.js"></script>
-    <link rel="stylesheet" href="/archivosCss/cssCrearCuenta.css">
+    <script src="../scripts/crearCuenta.js"></script>
+    <link rel="stylesheet" href="../archivosCss/cssCrearCuenta.css">
+    
 </head>
+<form action="../php/registro_usuario_be.php" method="post">
 <body>
     <section id="registroSec">
         <div id="titulos">
@@ -14,7 +16,7 @@
             <h3 class="titulos">Rellena los campos</h3>
             <hr class="separador">
         </div>
-        <form action="/php/registro_usuario_be.php" method="post">
+        
             <div id="cajasTexto">
                 <div>
                     <input type="text" placeholder="Nombre" class="inputs" name="nombre">
@@ -22,10 +24,11 @@
                 </div>
                 <div>
                     <input type="email" placeholder="Correo" class="inputs" name="correo">
+                    <input type="text" placeholder="Link ó IG de la persona" class="input" name="link_IG">
                 </div>
                 <div>
                     <input type="password" placeholder="Contraseña" class="inputs" name="contrasena">
-                    <input type="password" placeholder="Confirmar contraseña" class="inputs" name="confirmar_contrasena">
+                    <input type="text" placeholder="Descripcion sobre ti" class="inputs" name="descripcion">
                 </div>
             </div>
             <div id="nacimientoI">
@@ -67,7 +70,8 @@
                     <button type="submit">Registrarse</button>
                 
             </div>
-        </form>
+        
     </section>
 </body>
+</form>
 </html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    background-color:  #FFFFFF;
+}
+.seccionT{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#facialRojo{
+    color: red;
+}
+#divTitulo{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
+.nombrePW{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#navegar{
+    margin-left: 50px;
+}
+.irA{
+    margin-top: 31%;
+    font-size: 25px;
+}
+.irA a{
+    text-decoration: none;
+    color: black;
+}
+
+.lineaVertical{
+    border: solid;
+}
+
+/*Lado derecho*/
+#panelD{
+    width: 100%;
+    height: 100%;
+}
+
+/*Rectangulo de usuario*/
+#rectangulo{
+    margin-top: 25px;
+    margin-left: 5%;
+    background-color: #d9d9d9;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    justify-items: center;
+    border-radius: 15px;
+}
+.datos{
+    margin-top: 30px;
+}
+/*Iconos del usuario*/
+#iconosP{
+    justify-content: space-around;
+    display: flex;
+}
+.imgBoton{
+    margin-top: 50px;
+    font-size: 40px;
+}
+.imgBoton i{
+    color: black;
+}
+/*Linea de separacion*/
+#lineaD {
+    margin-top: 35px;
+
+}

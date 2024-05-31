@@ -89,7 +89,7 @@ body{
     text-align: justify;
     margin: 5% 8%;
 }
-#registroT a{
+#registroT button{
     margin: 5%;
     font-size: 25px;
     border: 1px solid;
@@ -103,8 +103,12 @@ body{
     color: white;
     transition: all 0.2s;
 }
+#registroT a{
+    text-decoration: none;
+    color: white;
+}
 
-#registroT a:hover{
+#registroT button:hover{
     background-color: #025a30;
 }
 
